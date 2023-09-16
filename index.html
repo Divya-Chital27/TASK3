@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>page1</title>
+    <style>
+    *{
+        top: 0px;
+        left: 0px;
+    }
+    body{
+        background-color: lavenderblush;
+    }
+    .container{
+        
+        display: flex;
+        
+        padding: 4px 4px;
+        cursor: pointer;
+        text-decoration: none;
+        justify-content: end;
+        box-shadow: 10px 8px grey;
+        opacity: 0.7;
+        
+    }
+ul {
+    color: black;
+}
+
+.box li a{
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+}
+li {
+    color: black;
+    padding: 4px 7px;
+    display: inline-block;
+    list-style: none;
+    text-decoration: none;
+    font-weight: bold;
+    
+}
+.box li a:hover{
+    color:black;
+}
+#container1{
+    display: flex;
+    margin: 34px;
+}
+#task{
+    display: flex;
+    margin: auto;
+    
+}
+
+#task .box1{
+    border: 2px solid black;
+    border-radius: 23px;
+    height: 400px;
+    width: 400px;
+    background-color: rgb(204, 201, 201);
+}
+
+#task .html{
+    background-color: rgb(20, 220, 207);
+}
+#task1{
+    display: grid;
+    
+    grid-template-columns: repeat(3 ,1fr);
+    grid-template-rows: repeat(3,1fr);
+    padding: 4px 4px;
+    
+}
+.bdr{
+    border: 2px solid black;
+    height: 50px;
+    width: 50px;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin: auto;
+    display: block;
+    background-color: blue;
+    border-radius: 16px;
+    box-shadow: 12px 10px black;
+    
+}
+.logo{
+    height: 400px;
+    width: 500px;
+}
+#task1 .bdr:active{
+    background-color: red
+}
+@media (max-width:400px){
+    body{
+        background-color: beige;
+    } 
+    
+    
+}
+@media (min-width:400px) and (max-width:800px)
+{
+    body{
+        background-color: cornsilk;
+    }
+    
+}
+@media (min-width:800px) and (max-width:1200px)
+{
+    body{
+        background-color: antiquewhite;
+    }}
+    
+</style>
+    
+    
+    
+</head>
+<body>
+
+
+    <div class="container">
+        <ul class="box" id="navbar">
+            <li>
+                <a href="page2.html">HOME</a>
+            </li>
+            <li><a href="index.html">GRID</a>
+            </li> 
+            <li><a href="https://www.linkedin.com/in/divya-chital-85b641266">LINKEDIN></a></li>
+            
+        </ul>
+        
+</div>
+<section id="container1">
+    <div id="task">
+
+    
+    <div  class="box1 html">
+        <p> </p>
+    </div>
+    </div>
+    <div id="task">
+        <div >
+    <img src="Ecell.png" alt="" class="logo">
+    </div>
+    </div>
+    <div id="task">
+
+    
+    <div class="box1  " id="task1">
+    
+
+    
+        <div class="bdr"></div>
+        <div class="bdr "></div>
+        <div class="bdr"></div>
+        <div class="bdr" ></div>
+        <div  class="bdr"></div>
+        <div class="bdr"></div>
+        <div  class="bdr"></div>
+        <div class="bdr"></div>
+        <div class="bdr" ></div>
+    
+    
+    </div>
+    </div>
+     
+</section>
+
+
+
+
+</body>
+</html>
